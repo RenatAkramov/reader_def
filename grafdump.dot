@@ -1,0 +1,18 @@
+digraph G
+{
+  rankdir = UD;
+  edge[color = "green"];
+  "00BE4DA0" [shape = Mrecord, color = "khaki3", style = "filled", fillcolor = "lemonchiffon", label = "/"];
+  "00BE4D20" [shape = Mrecord, color = "khaki3", style = "filled", fillcolor = "lemonchiffon", label = "-"];
+  "00BE4CE0" [shape = Mrecord, color = "limegreen", style = "filled", fillcolor = "darkolivegreen1", label = "5"];
+  "00BE4D00" [shape = Mrecord, color = "limegreen", style = "filled", fillcolor = "darkolivegreen1", label = "10"];
+  "00BE4D20" -> "00BE4CE0";
+  "00BE4D20" -> "00BE4D00";
+  "00BE4D80" [shape = Mrecord, color = "khaki3", style = "filled", fillcolor = "lemonchiffon", label = "*"];
+  "00BE4D40" [shape = Mrecord, color = "limegreen", style = "filled", fillcolor = "darkolivegreen1", label = "3"];
+  "00BE4D60" [shape = Mrecord, color = "limegreen", style = "filled", fillcolor = "darkolivegreen1", label = "x"];
+  "00BE4D80" -> "00BE4D40";
+  "00BE4D80" -> "00BE4D60";
+  "00BE4DA0" -> "00BE4D20";
+  "00BE4DA0" -> "00BE4D80";
+}
